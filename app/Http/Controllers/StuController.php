@@ -15,6 +15,8 @@ class StuController extends Controller
     public function index()
     {
         return $this->Students;
+        return 'for view in ver 2.0';
+        
     }
 
     
