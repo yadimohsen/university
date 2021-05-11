@@ -32,6 +32,7 @@ class StudentController extends Controller
         $s->avg=$request->avg;
         $s->save();
         return $s->id;
+        return 'change Applyed';
 
 
     }
